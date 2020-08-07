@@ -4,7 +4,7 @@
 </div>
 <p align="center">
     Dominant UserBot, Telegram kullanmanızı kolaylaştıran bir bottur. Tamamen açık kaynaklı ve ücretsizdir.
-    <br>|
+    <br>
         <a href="https://t.me/DominantUserBot">Telegram Kanal</a>
     <br>
 </p>
