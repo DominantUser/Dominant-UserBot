@@ -19,7 +19,7 @@ Eğer botu kurma hakkında fikriniz yoksa burayı okuyunuz: [Kurulum Rehberi](ht
 ### Zor Yöntem
 ```python
 git clone https://github.com/DominantUser/Dominant-UserBot.git
-cd CeteUserBot
+cd Dominant-UserBot
 pip install -r requirements.txt
 # Config.env oluşturun ve düzenleyin. #
 python3 main.py
