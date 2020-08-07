@@ -11,7 +11,7 @@
 from userbot import CMD_HELP
 from userbot.events import register
 
-@register(outgoing=True, pattern="^.cete(?: |$)(.*)")
+@register(outgoing=True, pattern="^.dominant(?: |$)(.*)")
 async def dominant(event):
     """ .dominant komutu için """
     args = event.pattern_match.group(1).lower()
