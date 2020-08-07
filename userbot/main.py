@@ -67,17 +67,6 @@ UNAPPROVED_MSG = ("`Hey! Bu bir DominantUserBot. Endişelenme.\n\n`"
                   "`Lütfen sahibimin aktif olmasını bekleyin, o genellikle PM'leri onaylar.\n\n`"
                   "`Bildiğim kadarıyla o kafayı yemiş insanlara PM izni vermiyor.`")
 
-DB = connect("dominant2")
-CURSOR = DB.cursor()
-CURSOR.execute("""SELECT * FROM BRAIN1""")
-ALL_ROWS = CURSOR.fetchall()
-INVALID_PH = '\nHATA: Girilen telefon numarası geçersiz' \
-             '\n  Ipucu: Ülke kodunu kullanarak numaranı gir' \
-             '\n       Telefon numaranızı tekrar kontrol edin'
-
-for i in ALL_ROWS:
-    BRAIN_CHECKER.append(i[0])
-connect("dominant2").close()
 try:
     bot.start()
 
